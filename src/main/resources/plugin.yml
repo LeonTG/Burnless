@@ -1,0 +1,6 @@
+name: ${project.name}
+main: ${project.groupId}.${project.artifactId}.Main
+version: ${project.version}
+author: LeonTG77
+description: A plugin that disables burning of items and removes the sound of them burning.
+softdepend: [ProtocolLib]
