@@ -47,12 +47,6 @@
             <version>1.4</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.comphenix.protocol</groupId>
-            <artifactId>ProtocolLib</artifactId>
-            <version>3.6.5</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <!-- Build configuration taken from https://github.com/Eluinhost/UHC -->

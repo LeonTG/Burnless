@@ -27,9 +27,7 @@
 
 package com.leontg77.burnless;
 
-import com.comphenix.protocol.ProtocolLibrary;
 import com.leontg77.burnless.listeners.BurnListener;
-import com.leontg77.burnless.listeners.SoundListener;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -42,7 +40,6 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        ProtocolLibrary.getProtocolManager().addPacketListener(new SoundListener(this));
         Bukkit.getPluginManager().registerEvents(new BurnListener(), this);
     }
 }

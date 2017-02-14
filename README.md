@@ -2,14 +2,7 @@
 
 **Description:**
 
-A plugin that disables burning of items and removes the sound of them burning, this will also remove all ways of destroying items other than picking them up.
-
-___
-
-
-**NOTE:** The following plugin is REQUIRED to make this work
-
-[**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/download?version=69182)
+A plugin that disables burning of items, this will also remove all ways of destroying items other than picking them up.
 
 ___
 
